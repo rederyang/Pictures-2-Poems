@@ -1,0 +1,16 @@
+1. Data preprocess
+	include:
+	extract 5-character poems from .json file
+	get familiar with CIFAR100 and load it
+	create a dictionary between key word and class name
+	word2vec training or other methods to do embedding
+2. Model
+	for image classifier:
+		should use a pretrained model from https://github.com/weiaicunzai/pytorch-cifar100
+	for seq2seq model:
+		need attention mechanism
+		need to learn from scratch
+3. Problems need to be discussed
+	textrank? or some efficient way do poems embedding
+	just a key word to do seq2seq? need a precise interface between models
+	can we do some improvement. pictures to poem or poems?	
